@@ -1,0 +1,131 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url("../images/grey.png");
+  min-height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+html{
+  min-height: 100%;
+}
+
+.navbar li a{
+  border-top: 5px solid white;
+  color: gray;
+  line-height: 50px;
+}
+
+.nav a:link,.nav a:visited,.nav a:active, .nav a:hover {
+  background: white !important;
+  border-color: white !important;
+}
+
+.navbar li a:hover{
+  color: #4AAAA5;
+}
+
+.navbar{
+  background: white;
+  margin-bottom: 50px;
+}
+
+.navbar-brand, .navbar-brand:hover{
+  border-top: 5px solid white;
+  box-sizing: content-box;
+  background: #4AAAA5;
+}
+
+.navbar-brand h1{
+  color: white;
+  margin: 0;
+  line-height: 50px;
+}
+
+.navbar-header button{
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.navbar-header button span{
+  background: #4AAAA5;
+}
+
+.content-right{
+  -webkit-box-shadow: 0px 1px 1px 2px rgba(169,169,169,0.3);
+  -moz-box-shadow: 0px 1px 1px 2px rgba(169,169,169,0.3);
+  box-shadow: 0px 1px 1px 2px rgba(169,169,169,0.3);
+}
+
+.content-left {
+  -webkit-box-shadow: 0px 1px 1px 2px rgba(169,169,169,0.3);
+  -moz-box-shadow: 0px 1px 1px 2px rgba(169,169,169,0.3);
+  box-shadow: 0px 1px 1px 2px rgba(169,169,169,0.3);
+}
+
+
+.content-right-title {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 13px 0;
+  border-bottom: 2px solid lightgray;
+  color: #4AAAA5;
+}
+
+.content-left-title {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 18px 0;
+  border-bottom: 2px solid lightgray;
+  color: #4AAAA5;
+}
+
+.content-left {
+  background: white;
+  padding: 0 30px;
+  margin-bottom: 50px;
+}
+
+.content-right {
+  background: white;
+  padding: 0 30px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+
+.content-right .inner, .content-right a{
+  height: inherit;
+}
+
+.content-right .inner:hover{
+  background: rgba(255,255,255,0.3)
+}
+
+
+.image{
+  height: 60px;
+  width: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.footer{
+  color: lightgray;
+  background: #666666;
+  height: 80px;
+  border-top: 5px solid #4AAAA5;
+
+}
+
+.footer p{
+  line-height: 75px;
+  text-align: center;
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+
+
+

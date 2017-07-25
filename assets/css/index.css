@@ -1,0 +1,24 @@
+img{
+  width: 100% !important;
+}
+
+.img-title{
+  display: block;
+  text-align: center;
+  color: white;
+  border: none;
+  margin: 0;
+  padding: 10px 0;
+  background: #4AAAA5;
+  position: relative;
+  bottom: 60px;
+}
+
+.img-title h3{
+  margin: 0;
+}
+
+.row:nth-of-type(1){
+  width: 95%;
+  margin: 0 auto;
+}
